@@ -7,7 +7,7 @@ p{
         font-size: 45px;
         text-align: center;
         font-style:oblique;
-        font-family: 'Times New Roman', Times, serif;
+
     }
     hr{
         width: 10%;
@@ -16,44 +16,32 @@ p{
         background-color: black;  
         
     }
-    .vanban{
- 
-        font-size: 20px;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
+    
         
-    }
+    
     .tieude{
         
         font-size: 25px;
         margin-left: 11cm;
-        font-family: 'Times New Roman', Times, serif;
+      
     }
     b{
         font-size: 60px;
     }
-    .dropcap{
+    .drop{
             float: left;
             line-height: 85%;
             width: .6em;
             font-size: 400%;
             font-family: georgia;
     }
-    .fbthg{
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .tonhat{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 40px;
-        text-align: center;
+   
     
-    }
     .inhoa{
-        font-family: 'Times New Roman', Times, serif;
+       
         font-size: 15px;
         text-align: center;
         text-transform:uppercase ;
+
     
     }
