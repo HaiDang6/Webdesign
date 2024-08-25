@@ -1,0 +1,47 @@
+p{
+    font-size: 20px;
+    text-align: center;
+    }
+    
+    div{
+        font-size: 45px;
+        text-align: center;
+        font-style:oblique;
+
+    }
+    hr{
+        width: 10%;
+        height: 2px;
+        color: black;
+        background-color: black;  
+        
+    }
+    
+        
+    
+    .tieude{
+        
+        font-size: 25px;
+        margin-left: 11cm;
+      
+    }
+    b{
+        font-size: 60px;
+    }
+    .drop{
+            float: left;
+            line-height: 85%;
+            width: .6em;
+            font-size: 400%;
+            font-family: georgia;
+    }
+   
+    
+    .inhoa{
+       
+        font-size: 15px;
+        text-align: center;
+        text-transform:uppercase ;
+
+    
+    }
