@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Chiều cao tối thiểu của màn hình */
+    background-color: #f0f0f0; /* Màu nền của trang, có thể tùy chỉnh */
+}
+
+/* Định dạng container */
+.container {
+    width: 80%; /* Chiều rộng của container, có thể điều chỉnh */
+    max-width: 600px; /* Chiều rộng tối đa của container */
+    height: 80%; /* Chiều cao của container, có thể điều chỉnh */
+    max-height: 400px; /* Chiều cao tối đa của container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Màu nền của container */
+    border: 1px solid #ddd; /* Viền của container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng cho container */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm tăng tổng chiều rộng */
+}
+
+/* Định dạng box */
+.box {
+    width: 100%; /* Chiều rộng của hộp theo chiều rộng của container */
+    height: 100%; /* Chiều cao của hộp theo chiều cao của container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Định dạng chữ bên trong hộp */
+.box p {
+    margin: 0; /* Loại bỏ khoảng cách mặc định của p */
+    font-size: 1.5em; /* Kích thước chữ, có thể điều chỉnh */
+}

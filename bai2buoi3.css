@@ -1,0 +1,45 @@
+h1{
+color:rgb(19,151,151);
+}
+
+
+.body{
+        font-family: 'Roboto Slab', serif;
+        width: 560px; 
+        padding: 20px; 
+        margin: 20px auto; 
+        float: center;
+    
+}
+.tinlq{
+    background-color: rgb(66,189,189);
+    color: white;
+    width: 560px;
+    margin: 20px auto;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.hover{
+    color:rgb(228,228,19);
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+img{
+    width: 560px;
+    height: 430px;
+    padding:20px;
+    margin: 20px auto ; 
+    background-color: rgb(194, 186, 186);
+
+}
+.ul{
+    color: blue;
+    marker:black;
+}
+figcaption{
+    color:rgb(66,68,189);
+
+}

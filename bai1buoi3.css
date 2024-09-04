@@ -1,0 +1,17 @@
+.trangchu {
+    margin-top: 40px;  
+    margin-left:150px;
+    width:700px;
+    height:500px;
+    border:2px black;
+
+}
+#noidung { 
+    margin-left:100px;
+    font-size: 18px;
+    
+}
+#img {
+    height:110%;
+    width:90%;
+}
