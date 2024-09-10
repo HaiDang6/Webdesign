@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin:0;
+    padding:0;
+    font-size: 30px;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 20px 0;
+}
+
+main .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+#menu ul {
+    background:black;
+    list-style-type:none;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;   
+    
+}
+#menu li{
+    color:white;
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#menu ul li a {
+   
+    text-decoration: none;
+    display: block;
+}
+.menu2 {
+    background: #d3d2d2;
+    height: 950px; 
+
+    width: 20%;
+    padding: 0;
+    list-style-type: none;
+    overflow:scroll;
+     position: fixed;
+     margin-top: 27px;
+
+     
+
+}
+.menu2 li {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.menu2 li a{
+    text-decoration: none;
+    color: #050505;
+    display: block;
+    padding-left: 20px;
+}
+
+.menu2 p{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
