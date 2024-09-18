@@ -1,0 +1,167 @@
+/* Reset mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Định dạng header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+/* Định dạng các phần trong main */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#menu ul {
+    background:black;
+    list-style-type:none;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;   
+    
+}
+#menu li{
+    color:white;
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#menu ul li a {
+   
+    text-decoration: none;
+    display: block;
+}
+.dropdown {
+    margin-top: 15px;
+    float:left;
+    overflow: hidden;
+    margin: 6px;
+    border-radius: 15px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border-radius: 15pxpx;
+    outline: none;
+    background-color:black;
+    color: white;
+    padding: 14px 16px;
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:gray;
+  }
+  
+  .dropdown-content {
+    border-radius: 15px;
+    display: none;
+    position: absolute;
+    background-color: #707070;
+    width: 136px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 195, 255, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #000000;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+ 

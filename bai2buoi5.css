@@ -1,0 +1,139 @@
+header {
+    position: relative;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+    z-index: 1000;
+    
+    
+}
+
+/* Logo container styles */
+.logo-container {
+   
+    position:relative;
+    top: 50px;
+    left: 270px;
+    padding: 0.5rem;
+}
+
+/* Logo styles */
+.logo {
+    height: 80px; /* Adjust the height according to your logo size */
+}
+
+/* Navigation styles */
+nav {
+    margin-left: 60px; /* Adjust according to your logo width */
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    
+}
+
+.search-container {
+    position:relative;
+    display: flex;
+    align-items: center;
+    max-width: 700px; /* Adjust width as needed */
+    width: 100%;
+    left: 450px;
+    top:-15px;
+}
+
+/* Search input styles */
+.search-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #6200ea;
+}
+
+
+
+nav ul.menu {
+    list-style:none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+
+nav ul.menu li {
+    margin: 0 15px; 
+}
+
+nav ul.menu li a {
+    text-decoration: none; 
+}
+* {
+    box-sizing: border-box;
+}
+nav{
+    background-color: #008f8f;
+    color:white;
+}
+.container {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+
+.left {
+    margin-top: 10px;
+    flex: 1; 
+    padding: 1px; 
+}
+
+
+.right {
+    flex: 2; 
+    padding: 1px; 
+}
+
+
+.line {
+    padding: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204); 
+    margin-bottom: 10px; 
+}
+.line a {
+    text-decoration: none; 
+    color: black; 
+    display: flex; 
+    align-items: center; 
+    font-size: 15px;
+}
+
+.line img {
+    max-width: 50px; 
+    margin-right: 10px; 
+    border-radius: 5px;
+}
+.column {
+    display:block;
+    flex:auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.column a{
+    text-decoration: none; 
+
+}
+.column img{
+    max-width: 200px;
+    justify-content: center; 
+    align-items: center; 
+    margin: 8px 8px;
+}
