@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Màu nền nhạt cho trang */
+}
+
+.exercise-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* Bo tròn góc của khung */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    text-align: center;
+}
+
+.exercise-box h2 {
+    margin-bottom: 20px;
+    color: #1e40af; /* Màu chữ của tiêu đề */
+}
+
+.exercise-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Tự động xuống dòng nếu không đủ chỗ */
+    gap: 10px; /* Khoảng cách giữa các nút */
+    justify-content: center; /* Canh giữa các nút */
+}
+
+.exercise-buttons a {
+    background-color: #4FC3F7; /* Màu nền của nút */
+    color: #FFFFFF; /* Màu chữ của nút */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    padding: 10px 20px; /* Khoảng cách bên trong nút */
+    border-radius: 8px; /* Bo tròn góc của nút */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+}
+
+.exercise-buttons a:hover {
+    background-color: #0288D1; /* Màu nền khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+.exercise-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4FC3F7; /* Màu nền của nút */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dropbtn:hover {
+    background-color: #0288D1; /* Màu nền khi hover */
+    transform: scale(1.05);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #E3F2FD; /* Màu nền khi hover trên các liên kết */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Hiển thị menu thả xuống khi di chuột */
+}
+.btn {
+    background-color: #4FC3F7; /* Màu nền cho các nút */
+    color: #FFFFFF; /* Màu chữ của nút */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px; /* Bo tròn góc */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin-bottom: 15px; /* Tạo khoảng cách phía dưới nút */
+}
+
+.btn:hover {
+    background-color: #0288D1; /* Màu nền khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+.home-btn {
+    background-color: #FF9800; /* Màu nền cho nút Home */
+    margin-bottom: 20px; /* Tạo khoảng cách phía dưới */
+}
+
+.home-btn:hover {
+    background-color: #FB8C00; /* Màu nền khi hover của nút Home */
+}
